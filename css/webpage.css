@@ -1,0 +1,138 @@
+#logo{
+			z-index: 2;
+			margin-top: -1%;
+			position: absolute;
+			height: 9vw;
+			width: 12vw;
+			border-radius: 10px;
+		}
+#title{
+			z-index: 1;
+			margin-top: 1%;
+			position: relative;
+			font-family: sans-serif;
+			font-weight: bold;
+			color: white;
+			padding-top: 2vw;
+			padding-bottom: 3vw;
+			font-size: 3vw;
+			background-color: #0984e3;
+			height: 2vw;
+			width: 100%;
+			border-radius: 15px 5px 5px 0px;
+		}
+#stock{
+			position: absolute;
+			height: 50%;
+			width: 12vw;
+		}
+#menu{
+			min-height: 40vw;
+			width: 20vw;
+			margin-left: -6vw;
+		}
+#menu li{
+			display: none;
+			margin-left:5vw;
+			margin-bottom: 1%;
+			list-style-type: none;
+			background-color: #2196f3    ;
+			color: white;
+			border-radius: 0px 20px 20px 0px;
+			font-size: 1.3vw; 
+			text-align: center;
+			height: 4.3vw;
+			width: 12.5vw;
+			padding: 5px;
+		}
+#menu:hover li{
+			display:block;
+		}
+#menu a{
+			text-decoration: none;
+			color:white;
+		}
+.container {
+  top:25%;
+  position: relative;
+  width: 300px;
+}
+
+.image {
+  display: block;
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 300px;
+  opacity: 0;
+  transition: 0.8s ease;
+  }
+  
+#user{
+	background-color:#2e86de;
+}
+
+#admin{
+	background-color:#F8EFBA;
+}
+
+
+.container:hover .overlay {
+  opacity: 1;
+  border-radius: 50%;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  border-radius:50%;
+}
+#board{
+	background-color:white;
+	position: absolute;
+	height:80%;
+	width:83.5%;
+	margin-left: 15%;
+	margin-top: 2%;
+	border-radius: 20px;
+	background-size: cover; 
+}
+#th1{
+	width: 20%;
+	height: 100%;
+	border-radius: 10px;
+	float: left;
+}
+#th1 img{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 20%;	
+}
+#th2{
+	width: 60%;
+	float: left;
+	height: 100%;
+	border-radius: 10px;
+}
+#th3{
+	width: 20%;
+	float: left;
+	height: 100%;
+	border-radius: 10px;
+}
